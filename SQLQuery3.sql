@@ -50,14 +50,14 @@ INSERT INTO Client VALUES ('Ahmed Said Hamed' , '01034679213','ahmed.hamed19@gma
 INSERT INTO Brand VALUES ('DAEWOO')
 INSERT INTO Cars VALUES ('4679153' , 'Sportage 2013' , 8 , 3000 , 0);
 
-DELETE Brand WHERE BrandID = 14;
-DELETE Cars WHERE CarID = 3;
-DELETE Client WHERE ClientID = 6;
-DELETE Brand WHERE BrandID = 15;
-DELETE Cars WHERE CarID = 4;
-
 UPDATE Cars SET  CarPrice = 3500 WHERE CarID = 4;
 UPDATE Client SET Name = 'Maged Wagdy' WHERE ClientID = 10;
 UPDATE Client SET Phone = '0114686537' WHERE ClientID = 10;
 UPDATE Client SET Address= 'Egypt,Alexandria, janklis' WHERE ClientID = 10;
 UPDATE Cars SET  CarPrice = 4500 WHERE CarID = 1;
+
+DELETE Brand WHERE BrandID = 14;
+DELETE Cars WHERE CarID = 3;
+DELETE Client WHERE ClientID = 6;
+DELETE Brand WHERE BrandID = 15;
+DELETE Cars WHERE CarID = 4;
