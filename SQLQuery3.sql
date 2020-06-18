@@ -30,7 +30,7 @@ CREATE TABLE Client (
 	Email VARCHAR(50) NOT NULL UNIQUE,
 	Address VARCHAR(150) NOT NULL
 );
-INSERT INTO Client VALUES ('Marsel Nader'	,'01241264494',	'maged445@yahoo.com'	'alexandria, egypt');
+INSERT INTO Client VALUES ('Marsel Nader'	,'01241264494',	'maged445@yahoo.com'	,'alexandria, egypt');
 INSERT INTO Client VALUES ('mariam youssef'	,'01154934822'	,'mariam_y.sloiman@gmail.com','Alexndria,egypt');
 INSERT INTO Client VALUES ('Samuel tarek'	,'01255981324'	,'samuel.tarek@gmail.com'	,'alexandria,egypt');
 INSERT INTO Client VALUES ('Mark Youssef',	'01032486725',	'mark.sameh@gmail.com',	'alexandria,egypt');
@@ -51,13 +51,13 @@ INSERT INTO Brand VALUES ('DAEWOO')
 INSERT INTO Cars VALUES ('4679153' , 'Sportage 2013' , 8 , 3000 , 0);
 
 UPDATE Cars SET  CarPrice = 3500 WHERE CarID = 4;
-UPDATE Client SET Name = 'Maged Wagdy' WHERE ClientID = 10;
-UPDATE Client SET Phone = '0114686537' WHERE ClientID = 10;
-UPDATE Client SET Address= 'Egypt,Alexandria, janklis' WHERE ClientID = 10;
+UPDATE Client SET Name = 'Maged Wagdy' WHERE ClientID = 4;
+UPDATE Client SET Phone = '0114686537' WHERE ClientID = 4;
+UPDATE Client SET Address= 'Egypt,Alexandria, janklis' WHERE ClientID = 5;
 UPDATE Cars SET  CarPrice = 4500 WHERE CarID = 1;
 
 DELETE Brand WHERE BrandID = 14;
 DELETE Cars WHERE CarID = 3;
-DELETE Client WHERE ClientID = 6;
-DELETE Brand WHERE BrandID = 15;
+DELETE Client WHERE ClientID = 2;
+DELETE Brand WHERE BrandID = 4;
 DELETE Cars WHERE CarID = 4;
